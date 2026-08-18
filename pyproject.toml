@@ -1,0 +1,9 @@
+[project]
+name = "linkbox"
+version = "0.1.0"
+description = "A tiny in-memory URL shortener and click-tracking core, used as a training workshop baseline."
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
